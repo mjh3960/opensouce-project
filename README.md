@@ -5,7 +5,7 @@
 
 
 ###### 메모리 사용량, CPU 사용량 등을 나타내주며 top를 실행하는 동안에는 주기적인 업데이트로 실시간에 근접한 내용을 보여줍니다. 리눅스에서 top 명령어를 실행하면 아래와 깉이 노출됩니다. 위에는 전체의 요약이 있으며 아래에는 각 프로세스마다 구체적인 내용을 포함하고 있습니다.
-![오픈소스과제.htm](https://github.com/user-attachments/files/23772724/default.htm)
+![오픈소스과제.htm](https://www.google.com/imgres?q=top%20%EB%AA%85%EB%A0%B9%EC%96%B4&imgurl=https%3A%2F%2Fimg1.daumcdn.net%2Fthumb%2FR800x0%2F%3Fscode%3Dmtistory2%26fname%3Dhttps%253A%252F%252Ft1.daumcdn.net%252Fcfile%252Ftistory%252F1731AC524E07FB5220&imgrefurl=https%3A%2F%2Fwww.morenice.kr%2F30&docid=YAp7Pu5DJu_SmM&tbnid=ky4u6OMmBd1aPM&vet=12ahUKEwi__9m6-o-RAxUJafUHHeckH1MQM3oECBYQAA..i&w=800&h=556&hcb=2&ved=2ahUKEwi__9m6-o-RAxUJafUHHeckH1MQM3oECBYQAA)
 
 
 
