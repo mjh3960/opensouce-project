@@ -17,6 +17,8 @@
 +  top -o %CPU
 +  top -o %MEM
 ```
+
+### top 명령어 실행 예시
 bash
 top - 15:22:41 up  2:11,  1 user,  load average: 0.12, 0.08, 0.06
 Tasks: 184 total,   1 running, 183 sleeping,   0 stopped,   0 zombie
