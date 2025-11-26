@@ -8,9 +8,9 @@
 
 ## top(탑) 사용법
 
-+ 1.  top
-+ 2.  top -o %CPU
-+ 3.  top -o %MEM
+1. + top
+2. + top -o %CPU
+3. + top -o %MEM
 
 
 ---
