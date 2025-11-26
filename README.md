@@ -90,12 +90,8 @@ MiB 스왑: 총 2048.0개, 사용 가능 2048.0개, 사용됨 0.0개, 사용 가
 
 ### jobs 명령어의 예시
 > 아래는 리눅스 터미널에서 jobs 명령어를 사용하는 예제입니다. ping 명령어를 백그라운드로 실행한 뒤, jobs 명령어를 사용해 상태를 확인하는 과정입니다.
-'''
-> user@linux:~$ ping google.com &
-[1] 12345
-user@linux:~$ jobs
-[1]+  Running                 ping google.com &
-'''
+<img width="892" height="172" alt="image" src="https://github.com/user-attachments/assets/4c457469-7cb9-4170-97eb-35418bb720ee" />
+
 
 ##  사용법
 <img width="899" height="85" alt="image" src="https://github.com/user-attachments/assets/47bcc5f6-d8a3-423d-b238-7ba986ac6d1c" />
@@ -112,7 +108,8 @@ user@linux:~$ jobs
 
 # 4. kill(킬)
 
-**kill** 명령어는 프로세스를 종료할 때 사용합니다.
+###**kill** 명령어는 단순 종료 명령어가 아니라 프로세스에 지정한 시그널(Signal)을 보내는 명령어입니다. 해당 시그널의 액션이 종료라면 프로세스가 종료하게 되는 것입니다.
+> killall 명령어는 kill 명령어와 유사하지만 프로세스 지정을 프로세스 이름으로 합니다. (kill 명령어는 프로세스 번호로 프로세스를 지정)
 
 ##  사용법
 ```
