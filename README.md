@@ -92,6 +92,7 @@ MiB 스왑: 총 2048.0개, 사용 가능 2048.0개, 사용됨 0.0개, 사용 가
 ##  사용법
 ```
 1.jobs
+<img width="899" height="85" alt="image" src="https://github.com/user-attachments/assets/47bcc5f6-d8a3-423d-b238-7ba986ac6d1c" />
 
 2. fg %1
 3. bg %1
