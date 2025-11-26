@@ -8,8 +8,8 @@
 
 ## top(탑) 사용법3
 ```
-+ 1 top
-+ 2 top -o %CPU
++ 항목 top
++ 항목 top -o %CPU
 + 3 top -o %MEM
 ```
 
