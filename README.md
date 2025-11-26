@@ -19,12 +19,14 @@
  
 ### top 명령어 실행 예시
 '''
+
 bash
 top - 15:22:41 up  2:11,  1 user,  load average: 0.12, 0.08, 0.06
 Tasks: 184 total,   1 running, 183 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  5.3 us,  1.2 sy,  0.0 ni, 92.9 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
 MiB Mem :   7856.0 total,   1250.3 free,   2203.7 used,   4401.9 buff/cache
 MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5231.1 avail Mem 
+
 '''
 | PID  | USER | PR | NI |   VIRT   |  RES  |  SHR  | S | %CPU | %MEM |   TIME+   | COMMAND      |
 |------|------|----|----|----------|-------|-------|---|------|------|-----------|---------------|
