@@ -16,23 +16,24 @@
 +  top
 +  top -o %CPU
 +  top -o %MEM
-```
-
+ 
 ### top 명령어 실행 예시
+'''
 bash
 top - 15:22:41 up  2:11,  1 user,  load average: 0.12, 0.08, 0.06
 Tasks: 184 total,   1 running, 183 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  5.3 us,  1.2 sy,  0.0 ni, 92.9 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
 MiB Mem :   7856.0 total,   1250.3 free,   2203.7 used,   4401.9 buff/cache
 MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5231.1 avail Mem 
+'''
+| PID  | USER | PR | NI |   VIRT   |  RES  |  SHR  | S | %CPU | %MEM |   TIME+   | COMMAND      |
+|------|------|----|----|----------|-------|-------|---|------|------|-----------|---------------|
+| 1421 | root | 20 |  0 |  414504  | 65728 | 50284 | S |  8.5 |  0.8 |  0:32.45 | Xorg          |
+| 1864 | user | 20 |  0 | 1523040  |136924 | 89432 | S |  4.3 |  1.7 |  1:12.63 | gnome-shell   |
+| 2542 | user | 20 |  0 | 1274528  | 64840 | 50128 | S |  2.0 |  0.8 |  0:18.21 | firefox       |
+| 3678 | user | 20 |  0 |  245612  | 20348 | 16432 | R |  1.0 |  0.2 |  0:01.12 | top           |
+| 1001 | root | 20 |  0 |  164892  | 12880 |  9984 | S |  0.0 |  0.2 |  0:03.22 | systemd       |
 
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     
-   1421 root      20   0  414504  65728  50284 S   8.5  0.8   0:32.45 Xorg        
-   1864 user      20   0 1523040 136924  89432 S   4.3  1.7   1:12.63 gnome-shell 
-   2542 user      20   0 1274528  64840  50128 S   2.0  0.8   0:18.21 firefox     
-   3678 user      20   0  245612  20348  16432 R   1.0  0.2   0:01.12 top         
-   1001 root      20   0  164892  12880   9984 S   0.0  0.2   0:03.22 systemd     
-```
 
 
 ---
