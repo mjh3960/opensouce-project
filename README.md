@@ -1,6 +1,6 @@
 # opensouce-project
-
-# top(탑)
+---
+## top(탑)
 
 ### **top**  명령어는 현재 OS의 상태를 나타내주는 CLI 어플리케이션입니다.
 
