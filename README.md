@@ -78,32 +78,33 @@ MiB 스왑: 총 2048.0개, 사용 가능 2048.0개, 사용됨 0.0개, 사용 가
 4 ps -ef | grep [프로세스명]
 5 ps aux | grep [프로세스명]
 ```
-
+**참고**
+<https://blog.naver.com/tmk0429/222318530824>
 
 ---
 
-# 3. jobs
+# 3. jobs(잡스)
 
 **jobs** 명령어는 현재 셸에서 실행 중인 작업 목록을 확인합니다.
 
-## 🔧 사용법
+##  사용법
 ```
-jobs
-fg %1
-bg %1
+1.jobs
+2. fg %1
+3. bg %1
 ```
 
 ---
 
-# 4. kill
+# 4. kill(킬)
 
 **kill** 명령어는 프로세스를 종료할 때 사용합니다.
 
-## 🔧 사용법
+##  사용법
 ```
-kill <PID>
-kill -9 <PID>
-kill -15 <PID>
+1. kill <PID>
+2. kill -9 <PID>
+3. kill -15 <PID>
 ```
 
 ---
